@@ -1,0 +1,46 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Google (Kids mode)</title>
+        <link rel="icon" href="Google logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+    <body>
+        <div class="gap"></div>
+        <main>
+            <div>
+                <img src="logo.png" alt="Google logo" id="logo" />
+            </div>  
+        </main>
+        <section class="search-bar">
+                <div>
+                <div id="div"></div>
+                <input type="search"  id="search" oninput="saveSearch()" />
+            </div>
+            <div>
+                <a href="#" id="link" onkeydown="if(event.key==='Enter') { search(); return false; }">
+                    <button onclick="search()">Google search</button>
+                    <a href="https://doodles.google/">
+                        <button>I'm Feeling Lucky</button>
+                    </a>    
+            </div>
+        </section>
+        <footer>
+            <div id="Google">Google offered in:
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjxyYin_P2FAxUY2TQHHc_pB4wQ2ZgBCCE">हिन्दी</a> &nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCI">বাংলা</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCM">తెలుగు</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCQ">मराठी</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCU">தமிழ்</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCY">ગુજરાતી</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCc">ಕನ್ನಡ</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCg">മലയാളം</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.google.com/setprefs?sig=0_v9RIJqE-cfZYQswYR5pG3gr5NN0%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiGhIebg_6FAxWV2DQHHZmRC_MQ2ZgBCCk">ਪੰਜਾਬੀ</a>&nbsp;&nbsp;&nbsp;
+
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    </html>
