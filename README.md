@@ -1,2 +1,2 @@
-# Google-kids-
+# Google-kids
 Just Checking my JS Skills :)
